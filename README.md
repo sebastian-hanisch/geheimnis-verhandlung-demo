@@ -1,7 +1,6 @@
 # Verhandeln mit privaten Werten: Was kostet das Geheimnis? – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-geheimnis-verhandlung-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-geheimnis-verhandlung-demo.streamlit.app/)**
 
 Stück B2 der Linie **regeln-verhandeln** (Arbeitsname; Name, Bereich und Themenfeld werden erst bei der Einbindung in die Website festgelegt) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Der rote Faden der Linie: wer sich zuerst festlegt, lenkt. Hier ist die Information das Thema: ein **Verlader** (Käufer, privater Wert *v* der Tour) und ein **Spediteur** (Verkäufer, private Kosten *c*) kennen jeder nur das Eigene. Die Demo rechnet zwei Wege, wie das Geheimnis kostet: in der **doppelten Auktion** (beide nennen gleichzeitig Gebot und Forderung, Chatterjee–Samuelson) bleibt Handel aus, bei **einseitiger Information und Angeboten Runde für Runde** (Coase) kommt er später. Beträge sind Euro je Tour; Eigennutz, Gleichverteilung, Unabhängigkeit der Werte, Diskont und die Kenntnis der Verteilungen sind **Modellannahmen**, keine Aussagen über echte Betriebe.
 
@@ -251,4 +250,4 @@ python -m pytest tests -q
 
 Gebaut mit Streamlit, Plotly und fpdf2.
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Regeln setzen, verhandeln, kontrollieren](https://sebastianhanisch.net/konzepte-verhandeln.html).
