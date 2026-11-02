@@ -80,7 +80,7 @@ Gul/Sonnenschein/Wilson, Journal of Economic Theory 39(1), 1986; Ausubel/Denecke
 """
 
 NOT_IMPLEMENTED_MARKDOWN = """
-- **Der Fall mit Abstand zwischen Kosten und niedrigstem Wert** (die Kosten des Spediteurs liegen unter dem niedrigsten Wert des Verladers): nicht gerechnet. Die Gitter-Löser, mit denen er geprüft werden sollte, versagten ab etwa fünf Runden; ein besser gestellter Löser fehlt.
+- **Der Fall mit Abstand zwischen Kosten und niedrigstem Wert** (die Kosten des Spediteurs liegen unter dem niedrigsten Wert des Verladers): nicht gerechnet. Die Gitter-Löser, mit denen er geprüft werden sollte, versagten ab sechs bis neun Runden; ein besser gestellter Löser fehlt.
 - **Das Gleichgewicht außerhalb des Gültigkeitsbereichs:** die App meldet „Formel gilt hier nicht“ und zeigt keine Zahl; ein anderes Gleichgewicht wird nicht hergeleitet.
 - **Diskrete Gleichgewichte** (Beste-Antwort-Dynamik auf Typengittern): nicht berechnet.
 - **Mehrere Käufer und Verkäufer, zweiseitige private Information mit strategischer Verzögerung, abwechselnde Angebote mit privater Information, lernende Verhandler:** nicht gerechnet.

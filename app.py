@@ -184,7 +184,7 @@ with tab1:
         verdicts.append(v_t1)
     st.markdown("---")
     st.subheader("🔬 Experiment E2: Welche Preisregel hebt am meisten Handelsgewinn?")
-    st.caption("**Erwartung:** Die Mitte (κ = ½) liefert den größten Gewinn, und die Kurve ist in κ ↔ 1 − κ symmetrisch; setzt eine Seite den Preis allein (κ = 0 oder 1), bleibt weniger übrig. Live bei den Bereichen der Seitenleiste, nur wo die Formel gilt.")
+    st.caption("**Erwartung:** Die Mitte (κ = ½) liefert bei Werten und Kosten auf demselben Bereich den größten Gewinn, und die Kurve ist in κ ↔ 1 − κ symmetrisch; setzt eine Seite den Preis allein (κ = 0 oder 1), bleibt weniger übrig. Live bei den Bereichen der Seitenleiste, nur wo die Formel gilt.")
     krows = _kappa(settings.v0, settings.wv, settings.c0, settings.wc)
     st.plotly_chart(Z.build_kappa_curve(krows, av), width="stretch", key="kappa_chart")
     st.caption("Erwarteter Gewinn je Tour über der Preisregel; fehlen Punkte, gilt die Formel dort nicht.")
